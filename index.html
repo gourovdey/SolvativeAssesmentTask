@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sideBar" onclick="options()">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+        </div>
+        
+    </div>
+    <!-- <button class="historyButton" onclick="collapse();">History</button> -->
+    <h2>Standard</h2>
+    <input type="text" class="display">
+
+
+    <div class="bigBangContainer">
+        <div class="bigContainer">
+            <div class="container">
+                <div class="row">
+                    <button class="calciButton spec1">CE</button>
+                    <button class="calciButton spec1">C</button>
+                    <button class="calciButton spec1">X</button>
+                    <button class="calciButton">/</button>
+                </div>
+                <div class="row">
+                    <button class="calciButton">7</button>
+                    <button class="calciButton">8</button>
+                    <button class="calciButton">9</button>
+                    <button class="calciButton">*</button>
+                </div>
+                <div class="row">
+                    <button class="calciButton">4</button>
+                    <button class="calciButton">5</button>
+                    <button class="calciButton">6</button>
+                    <button class="calciButton">-</button>
+                </div>
+                <div class="row">
+                    <button class="calciButton">1</button>
+                    <button class="calciButton">2</button>
+                    <button class="calciButton">3</button>
+                    <button class="calciButton">+</button>
+                </div>
+                <div class="row">
+                    <button class="calciButton">%</button>
+                    <button class="calciButton">0</button>
+                    <button class="calciButton">.</button>
+                    <button class="calciButton spec2">=</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="historyDiv hiddenDiv">
+            <div class="history">
+                <h2>History</h2>
+                <ul id="historyList">
+                </ul>
+            </div>
+        </div>
+
+    </div>
+            
+<script src="index.js"></script>   
+</body>
+</html>

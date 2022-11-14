@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: hsl(205, 37%, 85%);
+}
+
+body{
+    height: 100vh;
+}
+
+h2{
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 3%;
+}
+
+.display{
+    display: block;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 29%;
+    padding: 3% 0;
+}
+
+.calciButton{
+    width: 20px;
+    height: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+
+.container{
+    padding: 3%;
+}
+
+.spec1{
+    color: red;
+    font-weight: 600;
+}
+
+.spec2{
+    color: white;
+    background-color: black;
+}
+
+
+
+.sideBar{
+    width: 35px;
+    height: 30px;
+    margin: 30px 10px 20px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.hiddenDiv{
+    display: none;
+}
+
+.history{
+    height: 100vh;
+}
+.memory{
+    height: 100vh;
+}
+.bigBangContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
